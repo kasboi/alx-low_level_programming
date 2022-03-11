@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
-main - main funtion to print string
+/**
+ * main - main funtion to print string
+ * Return: gives value of zero(0)
  */
 int main(void)
 {
