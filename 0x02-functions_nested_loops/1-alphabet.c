@@ -10,8 +10,12 @@ int main(void)
 {
 	char c;
 
-	for (c = 'A'; c <= 'Z'; c++)
-		_putchar(c);
-	_putchar('\n');
+	void print_alphabet(void)
+	{
+		for (c = 'A'; c <= 'Z'; c++)
+			_putchar(c);
+		_putchar('\n');
+	}
+	print_alphabet();
 	return (0);
 }
