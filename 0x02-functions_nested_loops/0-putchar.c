@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 /**
 * main - provide main function
 * Return: return zero
 */
 int main(void)
 {
-	printf("_putchar \n");
+	int c = 'G';
+	_putchar(c);
+	_putchar('\n');
 	return (0);
 }
