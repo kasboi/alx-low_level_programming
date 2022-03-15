@@ -1,21 +1,16 @@
 #include "main.h"
 /**
- * main - prints _putchar
+ * print_alphabet - prints _putchar
  *
  * Description: prints alphabetic order
  *
  * Return: 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
-	void print_alphabet(void)
-	{
-		for (c = 'A'; c <= 'Z'; c++)
-			_putchar(c);
-		_putchar('\n');
-	}
-	print_alphabet();
-	return (0);
+	for (c = 'A'; c <= 'Z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
