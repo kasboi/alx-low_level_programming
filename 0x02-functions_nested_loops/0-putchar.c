@@ -6,7 +6,7 @@
 int main(void)
 {
 	int c = 'G';
-	_putchar(c);
-	_putchar('\n');
+
+	printf("_putchar\n")
 	return (0);
 }
