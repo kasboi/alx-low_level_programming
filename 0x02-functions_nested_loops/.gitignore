@@ -1,0 +1,4 @@
+*.o
+*~
+_putchar.*
+/build
