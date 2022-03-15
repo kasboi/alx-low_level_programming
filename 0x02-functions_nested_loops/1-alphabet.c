@@ -4,7 +4,7 @@
  *
  * Description: prints alphabetic order
  *
- * Return: 0 (Success)
+ * Return: void
  */
 void print_alphabet(void)
 {
